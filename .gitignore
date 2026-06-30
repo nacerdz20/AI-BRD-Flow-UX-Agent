@@ -1,5 +1,64 @@
-node_modules
-dist
-.DS_Store
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+.vite/
+
+# Local environment files
+.env
+.env.*
+!.env.example
 *.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# System / editor files
+.DS_Store
+.idea/
+.vscode/
+.vscode-test/
+
+# Coverage and reports
+coverage/
+*.lcov
+.nyc_output/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Tooling caches
+.npm
+.pnpm-store
+.eslintcache
+.stylelintcache
+.cache
+.parcel-cache
+.temp
+.docusaurus
+.serverless/
+.firebase/
+.fusebox/
+.dynamodb/
+
+# Framework outputs
+.next/
+out/
+.nuxt/
+.output/
+.svelte-kit/
+**/.vitepress/dist
+**/.vitepress/cache
+.vuepress/dist
+
+# TypeScript / Vite metadata
 *.tsbuildinfo
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Packaging
+*.tgz
